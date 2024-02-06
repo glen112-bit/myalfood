@@ -27,6 +27,17 @@ const BasePaginaAdmin = () => {
                   Nuevo Restaurante
                 </Button>
               </Link>
+               <Link component={RouterLink} to='pratos'>
+                <Button sx={{ my: 2, color: "white" }}>
+                  Pratos
+                </Button>
+              </Link>
+              
+              <Link component={RouterLink} to='pratos/novo'>
+                <Button sx={{ my: 2, color: "white" }}>
+                  Novo Prato
+                </Button>
+              </Link>
             </Box>
           </Toolbar>
         </Container>
